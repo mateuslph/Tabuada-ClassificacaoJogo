@@ -29,8 +29,6 @@ public class Classificacao {
                 continue;
             }
 
-            sc.close();
-
         }
 
         System.out.println("A pontuação total do nosso time no campeonato é: " + nossosPontos);
@@ -42,6 +40,8 @@ public class Classificacao {
 
         System.out.println("Nosso time marcou: " + golsNossoTotal + " gols");
         System.out.println("Nosso time sofreu: " + golsSofridoTotal + " gols");
+
+        sc.close();
 
     }
 
